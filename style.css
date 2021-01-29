@@ -4,8 +4,7 @@
   --header: rgb(39, 20, 63);
   --main-blue: #45567d;
   --main-gray: #303841;
-  --footer: #000000;
-  --welcome-background: rgb(222, 228, 148);
+  --welcome-background:var(--main-white);
 }
 
 /* Base reset */
@@ -337,12 +336,14 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
-  background: var(--footer);
+  background: var(--header);
   border-top: 4px solid var(--main-red);
+  
 }
 
 footer > p {
   margin: 2rem;
+  
 }
 
 footer i {
